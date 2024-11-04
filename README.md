@@ -17,34 +17,35 @@ Each question has been solved in a separate file:
 ## Files and Descriptions
 1. **question1.py**
 
-- `Purpose`: Contains functions to convert infix expressions to postfix notation and evaluate them.
-- `Features`:
-   - Converts infix expressions to postfix notation.
-   - Supports operators such as +, -, *, /, and ^ (for exponentiation).
-   - Evaluates postfix expressions with proper operator precedence and associativity.
-   - Error handling for invalid characters, mismatched parentheses, division by zero, and empty expressions.
+**Features**
+- Basic operations like +, -, *, /, ^.
+- Error handling for division by zero.
+- Validation to ensure only simple two-operand expressions are processed.
 
 
 2. **question2.py**
 
-- `Purpose`: Expands on the functionality by adding custom error-handling and validation logic for complex expressions.
-- `Features`:
-   - Validates expressions to ensure they do not start with invalid operators.
-   - Handles division by zero and mismatched parentheses.
-   - Provides detailed feedback for various error cases, helping users identify issues in the input expression.
+**Features**
+- Handles expressions with multiple operators and parentheses.
+- Supports integers only.
+- Infix to postfix conversion for more complex evaluation.
+- Operator precedence and associativity are correctly implemented.
+- Error handling for invalid expressions and mismatched parentheses.
 
 
 3. **question3.py**
 
-- `Purpose`: Implements an interactive interface for users to input expressions and receive evaluation results or error messages.
-- `Features`:
-   - Accepts user input and evaluates the expression.
-   - Outputs detailed results, including errors encountered during evaluation.
-   - Designed to be user-friendly for both valid and invalid input expressions.
+- Supports both integer and floating-point numbers.
+- Handles unary minus for expressions like -3 + 2.
+- Infix to postfix conversion and subsequent evaluation.
+- Proper error handling for invalid characters, insufficient operands, and division by zero.
+- Checks for mismatched parentheses.
 
 ## Sample Input and Output
 
 ### Question 1 - Single Operator
+- question.py: Enter simple expressions like 5 + 3 or 10 * 4. Type quit to exit.
+
 | Input | Output |
 |-------|--------|
 | `2 + 5` | `7` |
@@ -54,6 +55,8 @@ Each question has been solved in a separate file:
 | `4 ^ 2` | `16` |
 
 ### Question 2 - Multiple Operators and Parentheses
+- question2.py: Enter more complex infix expressions such as (3 + 5) * 2 or 4 / (2 + 3).
+
 | Input         | Output |
 |---------------|--------|
 | `1 + 2 * 3`   | `7`    |
@@ -63,6 +66,8 @@ Each question has been solved in a separate file:
 | `10 - 3 ^ 2`  | `1`    |
 
 ### Question 3 - Decimal and Negative Numbers
+question3.py: Enter complex infix expressions including negative and floating numbers such as (-20 * 1.8) / 2 or -53 + -24.
+
 | Input                | Output   |
 |----------------------|----------|
 | `3.5 * 3`            | `10.5`   |
@@ -82,14 +87,15 @@ To test each question, you can run the respective Python file from the command l
 ### Steps:
 1. **Clone the repository**:
 
-   git clone https://github.com/vennamsandeep/calculator_project.git
-   cd calculator_project
+   ```git clone https://github.com/vennamsandeep/calculator_project.git```
+
+   ```cd calculator_project```
 
 2. **Run the Code**:
 
-   python questionX.py  
+   ```python questionX.py```
    
-   ex: python question1.py
+   ```ex: python question1.py```
 
 3. **Input Expressions**:
 
