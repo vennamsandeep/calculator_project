@@ -17,29 +17,31 @@ Each question has been solved in a separate file:
 ## Files and Descriptions
 1. **question1.py**
 
-**Features**
-- Basic operations like +, -, *, /, ^.
-- Error handling for division by zero.
-- Validation to ensure only simple two-operand expressions are processed.
+   **Features**
+   - Basic operations like +, -, *, /, ^.
+   - Error handling for division by zero.
+   - Validation to ensure only simple two-operand expressions are processed.
 
 
 2. **question2.py**
 
-**Features**
-- Handles expressions with multiple operators and parentheses.
-- Supports integers only.
-- Infix to postfix conversion for more complex evaluation.
-- Operator precedence and associativity are correctly implemented.
-- Error handling for invalid expressions and mismatched parentheses.
+   **Features**
+      - Handles expressions with multiple operators and parentheses.
+      - Supports integers only.
+      - Infix to postfix conversion for more complex evaluation.
+      - Operator precedence and associativity are correctly implemented.
+      - Error handling for invalid expressions and mismatched parentheses.
 
 
 3. **question3.py**
 
-- Supports both integer and floating-point numbers.
-- Handles unary minus for expressions like -3 + 2.
-- Infix to postfix conversion and subsequent evaluation.
-- Proper error handling for invalid characters, insufficient operands, and division by zero.
-- Checks for mismatched parentheses.
+   **Features**
+
+      - Supports both integer and floating-point numbers.
+      - Handles unary minus for expressions like -3 + 2.
+      - Infix to postfix conversion and subsequent evaluation.
+      - Proper error handling for invalid characters, insufficient operands, and division by zero.
+      - Checks for mismatched parentheses.
 
 ## Sample Input and Output
 
